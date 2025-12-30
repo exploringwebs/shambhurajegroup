@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shambhuraje Business Private Limited - Premium Healthy Fast Food, Import Export India, Global Startup Consultancy</title>
+    <meta name="description" content="Shambhuraje Business Private Limited delivers premium healthy fast food products, strategic import-export of food commodities, and expert global expansion consultancy for Indian startups. Quality, innovation, and trust in every venture.">
+    <meta name="keywords" content="healthy fast food India, premium donuts cookies, import export sugar jaggery raisins, startup global consultancy, Indian startups international scaling">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Shambhuraje Business Private Limited",
+      "url": "https://www.shambhuraje.com",
+      "logo": "https://www.shambhuraje.com/logo.png",
+      "description": "Premium healthy fast food products, import-export of food commodities, and global expansion consultancy for Indian startups.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9272053001",
+        "contactType": "Customer Service",
+        "email": "abhi@shambhuraje.com"
+      },
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Karad Tasgaon Road, Kundal Fata",
+          "addressLocality": "Kundal",
+          "postalCode": "416309",
+          "addressCountry": "IN"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Palus Colony, Near Ganapati Mandir",
+          "addressLocality": "Palus",
+          "postalCode": "416310",
+          "addressCountry": "IN"
+        }
+      ]
+    }
+    </script>
+    <style>
+        :root {
+            --primary: #02B0AA;
+            --primary-dark: #028c86;
+            --text: #333;
+            --light: #f8f9fa;
+            --gray: #666;
+            --white: #fff;
+            --heading-font: 'Playfair Display', serif;
+            --body-font: 'Open Sans', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--body-font); color: var(--text); line-height: 1.6; }
+        img { max-width: 100%; display: block; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+        .logo img { height: 80px; }
+
+        .nav-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        nav a {
+            color: var(--text);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: var(--primary); }
+
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        .whatsapp-btn:hover {
+            transform: scale(1.05);
+        }
+        .whatsapp-btn img {
+            height: 28px;
+        }
+
+        /* Hero */
+        #hero {
+            background: linear-gradient(rgba(2,176,170,0.75), rgba(2,176,170,0.55)), url('https://thumbs.dreamstime.com/b/elegant-teal-white-gradient-background-wavy-lines-modern-minimalist-design-business-presentation-pro-corporate-style-422040586.jpg') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: var(--white);
+        }
+        #hero .content {
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeIn 1.5s ease-out;
+        }
+        #hero h1 {
+            font-family: var(--heading-font);
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        #hero p {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+        }
+        .btn {
+            background: var(--white);
+            color: var(--primary);
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        .btn:hover { background: var(--primary); color: var(--white); transform: translateY(-5px); }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* General Sections */
+        section { padding: 60px 0; }
+        h2 {
+            font-family: var(--heading-font);
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 60px;
+            color: var(--primary);
+            position: relative;
+        }
+        h2::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            display: block;
+            margin: 20px auto 0;
+        }
+
+        /* Products */
+        #products { background: var(--light); }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        .product-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.4s;
+        }
+        .product-card:hover { transform: translateY(-15px); }
+        .product-card img { height: 300px; object-fit: cover; }
+        .product-card .info {
+            padding: 30px;
+            text-align: center;
+        }
+        .product-card h3 { font-size: 1.8rem; margin-bottom: 15px; }
+
+        /* About */
+        #about .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        #about .about-text p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        #about .about-image img {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        /* Social */
+        #social { background: var(--light); }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .social-icons a {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .social-icons a:hover {
+            transform: scale(1.15);
+        }
+        .social-icons img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Brands Carousel */
+        #brands {
+            position: relative;
+            overflow: hidden;
+        }
+        .carousel-wrapper {
+            overflow: hidden;
+        }
+        .carousel {
+            display: flex;
+            animation: scroll 25s linear infinite;
+        }
+        .brand-item {
+            flex: 0 0 20%;
+            padding: 30px;
+            text-align: center;
+        }
+        .brand-item img {
+            height: 100px;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+        .brand-item img:hover { filter: grayscale(0%); }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* Testimonials */
+        #testimonials { background: var(--light); }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        .testimonial {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s;
+        }
+        .testimonial.visible { opacity: 1; transform: translateY(0); }
+        .testimonial blockquote {
+            font-size: 1.1rem;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .testimonial cite { text-align: right; font-weight: 600; color: var(--primary); }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: var(--white);
+            padding: 80px 0 30px;
+        }
+        footer .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        footer h4 {
+            font-family: var(--heading-font);
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+        footer p, footer ul {
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+        footer ul {
+            list-style: none;
+        }
+        footer ul li {
+            margin-bottom: 10px;
+        }
+        footer ul li a {
+            color: var(--white);
+            transition: color 0.3s;
+            text-decoration: none;
+        }
+        footer ul li a:hover {
+            color: var(--primary);
+        }
+        footer .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        /* Mobile Adjustments */
+        .menu-toggle { display: none; cursor: pointer; font-size: 1.8rem; }
+        @media (max-width: 992px) {
+            #hero h1 { font-size: 3rem; }
+            .nav-wrapper {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--white);
+                flex-direction: column;
+                display: none;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+                padding: 20px 0;
+            }
+            .nav-wrapper.active {
+                display: flex;
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            .whatsapp-btn {
+                margin-top: 20px;
+            }
+            .menu-toggle { display: block; }
+            .brand-item { flex: 0 0 33.33%; }
+            #about .about-grid {
+                grid-template-columns: 1fr;
+            }
+            #about .about-image {
+                order: -1;
+            }
+        }
+        @media (max-width: 768px) {
+            #hero h1 { font-size: 2.5rem; }
+            #hero p { font-size: 1.2rem; }
+            .product-grid, .testimonial-grid { grid-template-columns: 1fr; }
+            .social-icons { gap: 30px; }
+            .social-icons a { width: 60px; height: 60px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/Header-Logo.png" alt="Shambhuraje Business Private Limited Logo">
+            </div>
+            <div class="nav-wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#products">Products & Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#brands">Partners</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="https://wa.me/919272053001" class="whatsapp-btn" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                    <span>Contact Now</span>
+                </a>
+            </div>
+            <div class="menu-toggle">&#9776;</div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="content container">
+            <h1>Premium Innovation in Food & Global Growth</h1>
+            <p>Delivering healthy fast-food excellence, strategic commodity trading, and transformative consultancy for Indian startups scaling worldwide.</p>
+            <a href="#products" class="btn">Explore Our Offerings</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products & Services</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://www.fgfbrands.com/wp-content/uploads/2021/07/Group-5_EDIT_web-1024x700.jpg" alt="ChaiBite Ring Donuts and Flavored Donuts">
+                    <div class="info">
+                        <h3>Healthy Fast Food</h3>
+                        <ul>
+                            <li>ChaiBite Ring Donut for chai lovers</li>
+                            <li>Premium flavored donuts</li>
+                            <li>Packaged healthy cookies</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://www.shutterstock.com/image-photo/jaggery-sugar-variety-sugarcane-byproducts-260nw-745953751.jpg" alt="Sugar, Jaggery, and Raisins Commodities">
+                    <div class="info">
+                        <h3>Import-Export Commodities</h3>
+                        <ul>
+                            <li>High-quality Sugar</li>
+                            <li>Traditional Jaggery</li>
+                            <li>Premium Raisins</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://i0.wp.com/theintactone.com/wp-content/uploads/2018/07/international-operation.png?resize=601%2C475&ssl=1" alt="Global Scaling Consultancy for Startups">
+                    <div class="info">
+                        <h3>Global Consultancy</h3>
+                        <ul>
+                            <li>Import-export strategy</li>
+                            <li>International market expansion</li>
+                            <li>Tailored scaling solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Shambhuraje Business Private Limited is driven by a vision to redefine healthy indulgence while empowering Indian enterprises on the global stage. We blend artisanal food craftsmanship with cutting-edge business strategy.</p>
+                    <p>Our dual expertise spans premium food manufacturing—creating nutritious, delightful snacks that resonate with modern consumers—and sophisticated consultancy that guides startups through international trade complexities.</p>
+                    <p>With unwavering commitment to quality, sustainability, and innovation, we build lasting partnerships and deliver measurable global success.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://assets.entrepreneur.com/content/3x2/2000/1731308083-Untitleddesign1.jpg" alt="Shambhuraje Founders / Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="brands">
+        <div class="container">
+            <h2>Brands We Work With</h2>
+            <div class="carousel-wrapper">
+                <div class="carousel">
+                    <div class="brand-item"><img src="https://imgproxy.divecdn.com/CkCgKuV19MN5q8NCNJH0mZg1pWNMYD3d_Z7fZOZYNes/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfNDQ3Mi5KUEc=.webp" alt="Partner Brand 1"></div>
+                    <div class="brand-item"><img src="https://www.duetsblog.com/files/2018/05/vauwPbInviencbc-800x450-noPad.jpg" alt="Partner Brand 2"></div>
+                    <div class="brand-item"><img src="https://images.ctfassets.net/01to7kbtr3az/6bcxsBSlWf9TggtzmhnoeH/c39ac9679e49e71e9ddd8366f824b66c/Creations_5p3oz_RENDER_CHRYCC.png" alt="Partner Brand 3"></div>
+                    <div class="brand-item"><img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122236187480104135" alt="Partner Brand 4"></div>
+                    <div class="brand-item"><img src="https://www.duetsblog.com/files/2015/12/cookies34325.jpg" alt="Partner Brand 5"></div>
+                    <div class="brand-item"><img src="https://imgproxy.divecdn.com/CkCgKuV19MN5q8NCNJH0mZg1pWNMYD3d_Z7fZOZYNes/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfNDQ3Mi5KUEc=.webp" alt="Partner Brand 1"></div>
+                    <div class="brand-item"><img src="https://www.duetsblog.com/files/2018/05/vauwPbInviencbc-800x450-noPad.jpg" alt="Partner Brand 2"></div>
+                    <div class="brand-item"><img src="https://images.ctfassets.net/01to7kbtr3az/6bcxsBSlWf9TggtzmhnoeH/c39ac9679e49e71e9ddd8366f824b66c/Creations_5p3oz_RENDER_CHRYCC.png" alt="Partner Brand 3"></div>
+                    <div class="brand-item"><img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122236187480104135" alt="Partner Brand 4"></div>
+                    <div class="brand-item"><img src="https://www.duetsblog.com/files/2015/12/cookies34325.jpg" alt="Partner Brand 5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <blockquote>"Shambhuraje's consultancy revolutionized our export strategy. Exceptional guidance and results."</blockquote>
+                    <cite>— Rajesh Patel, AgriTech CEO</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"The ChaiBite donuts are a bestseller in our outlets—healthy yet irresistible!"</blockquote>
+                    <cite>— Priya Sharma, Retail Chain Manager</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Reliable commodity sourcing with top-quality jaggery and raisins. Highly recommended."</blockquote>
+                    <cite>— Sneha Desai, Procurement Head</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Their global scaling expertise helped us enter new markets seamlessly."</blockquote>
+                    <cite>— Amit Kumar, Startup Founder</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Premium packaged cookies that elevated our product range."</blockquote>
+                    <cite>— Neha Gupta, Cafe Owner</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Professional, insightful, and truly transformative partnership."</blockquote>
+                    <cite>— Vikram Singh, Global Ventures Director</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="social">
+        <div class="container">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">
+                    <img src="https://static.vecteezy.com/system/resources/previews/008/385/647/non_2x/facebook-social-media-logo-abstract-symbol-design-illustration-free-vector.jpg" alt="Facebook">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img src="https://i.pinimg.com/originals/24/37/73/2437730f7e3a5705e205e67fa2cd1020.jpg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <img src="https://static.vecteezy.com/system/resources/previews/008/385/834/non_2x/linkedin-social-media-icon-logo-abstract-symbol-illustration-free-vector.jpg" alt="LinkedIn">
+                </a>
+                <a href="#" aria-label="X (Twitter)">
+                    <img src="https://toppng.com/uploads/preview/twitter-x-logo-round-outline-white-png-11690230649sbkkvv7iot.png" alt="X (Twitter)">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container footer-grid">
+            <div class="about-footer">
+                <h4>About Shambhuraje</h4>
+                <p>Shambhuraje Business Private Limited is a premium provider of healthy fast-food products, import-export of food commodities, and global expansion consultancy for Indian startups. We are committed to quality, innovation, and sustainable growth.</p>
+            </div>
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#products">Products & Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#brands">Partners</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="products-services">
+                <h4>Our Offerings</h4>
+                <ul>
+                    <li>Healthy Fast Food Products</li>
+                    <li>Import-Export Commodities</li>
+                    <li>Global Consultancy Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="contact-footer">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> +91 9272053001</p>
+                <p><i class="fas fa-envelope"></i> abhi@shambhuraje.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Main Office: Karad Tasgaon Road, Kundal Fata, Kundal 416309</p>
+                <p><i class="fas fa-industry"></i> Food Plant: Palus Colony, Near Ganapati Mandir, Palus 416310</p>
+            </div>
+        </div>
+        <div class="copyright container">
+            <p>&copy; 2025 Shambhuraje Business Private Limited. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-wrapper').classList.toggle('active');
+        });
+
+        // Testimonial Fade-In on Scroll
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        document.querySelectorAll('.testimonial').forEach(t => observer.observe(t));
+    </script>
+</body>
+</html>
